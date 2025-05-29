@@ -1,0 +1,13 @@
+CREATE TABLE employees (
+    id UUID PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    designation varchar(100) NOT NULL,
+    department VARCHAR(255) NOT NULL,
+    salary DECIMAL(10,2) NOT NULL,
+    join_date timestamp DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    is_active bool DEFAULT true NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT employees_pkey PRIMARY KEY (id)
+);

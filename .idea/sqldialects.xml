@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200724071903__db_init.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200731113854__add_external_id_to_business_customers.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200818103156__add_state_id_to_billing_infos.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200819093908__create_business_account_emails.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200827144223__add_non_null_constraints.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200904090606__create_payment_strategies.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200904121325__add_created_at_columns.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200918084556__add_is_active_to_business_customers.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20200925123637__add_account_id_to_business_orders.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20201007144719__create_payment_intimations.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20201007164807__create_payment_links.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20201007165630__create_intimation_payment_links.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20201019150055__add_redirect_url_to_payment_links.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210219154840__create_statement_codes_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210219155135__create_account_statements_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210310144311__create_bank_accounts_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210312151711__create_bank_collections_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210319155121__add_is_active_to_business_accounts.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210401175054__create_account_versions.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210503180947__add_account_id_index_on_statement_codes.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210525110030__create_admins_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210525110046__create_admin_profiles_repo.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20210929094411__create_account_blocked_reasons_table.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/ktor/server/src/main/db/migrations/V20211008114945__add_account_id_to_transactions_table.sql" dialect="GenericSQL" />
+  </component>
+</project>

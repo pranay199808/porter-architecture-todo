@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="in.porter.porterbizz.domain.employee.usecase.GetEmployeeDetailsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-05-28T21:13:14.858Z" hostname="pranaytajne-MacBook-Pro" time="0.189">
+  <properties/>
+  <testcase name="should return employee when found by ID()" classname="in.porter.porterbizz.domain.employee.usecase.GetEmployeeDetailsTest" time="0.152"/>
+  <testcase name="should throw EmployeeNotFoundException when employee not found by ID()" classname="in.porter.porterbizz.domain.employee.usecase.GetEmployeeDetailsTest" time="0.004"/>
+  <testcase name="should return paginated employees()" classname="in.porter.porterbizz.domain.employee.usecase.GetEmployeeDetailsTest" time="0.029"/>
+  <system-out><![CDATA[02:43:14.610 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for EmployeeDetailsRepo name=#1
+02:43:14.992 [Test worker @coroutine#1] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Employee name=child of #1#2
+02:43:15.005 [Test worker @coroutine#1] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering Employee(id=1, firstName=Alice, lastName=Smith, email=alice@example.com, department=Finance, position=Analyst, salary=75000.0, phoneNumber=null, dateOfBirth=null, startDate=null) on EmployeeDetailsRepo(#1).getEmployeeById(1, continuation {})
+02:43:15.012 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for EmployeeDetailsRepo name=#3
+02:43:15.016 [Test worker @coroutine#5] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for Employee name=child of #3#4
+02:43:15.017 [Test worker @coroutine#5] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering null on EmployeeDetailsRepo(#3).getEmployeeById(99, continuation {})
+02:43:15.018 [Test worker] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for EmployeeDetailsRepo name=#5
+02:43:15.045 [Test worker @coroutine#9] DEBUG io.mockk.impl.instantiation.AbstractMockFactory -- Creating mockk for PaginatedResponse name=child of #5#6
+02:43:15.047 [Test worker @coroutine#9] DEBUG io.mockk.impl.recording.states.AnsweringState -- Answering PaginatedResponse(items=[Employee(id=1, firstName=Alice, lastName=Smith, email=alice@example.com, department=Finance, position=Analyst, salary=75000.0, phoneNumber=null, dateOfBirth=null, startDate=null)], total=1, page=1, pageSize=10, totalPages=1) on EmployeeDetailsRepo(#5).getAllEmployees(PaginationRequest(page=1, pageSize=10), continuation {})
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="employee-demo-porter-architecture.Product" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.api-models" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.api-models.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.api-models.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.service" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.service.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.service.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.api.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.data" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.data.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.data.psql" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.data.psql.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.data.psql.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.data.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.domain" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.domain.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.domain.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.domain.testFixtures" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.Product.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.commons" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.commons.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.commons.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.client" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.client.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.client.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.server" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.server.main" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.server.test" options="-proc:none" />
+      <module name="employee-demo-porter-architecture.ktor.test" options="-proc:none" />
+      <module name="employee-todo.api-models" options="-proc:none" />
+      <module name="employee-todo.api-models.main" options="-proc:none" />
+      <module name="employee-todo.api-models.test" options="-proc:none" />
+      <module name="employee-todo.api-service" options="-proc:none" />
+      <module name="employee-todo.api-service.main" options="-proc:none" />
+      <module name="employee-todo.api-service.test" options="-proc:none" />
+      <module name="employee-todo.common-models" options="-proc:none" />
+      <module name="employee-todo.common-models.main" options="-proc:none" />
+      <module name="employee-todo.common-models.test" options="-proc:none" />
+      <module name="employee-todo.data-psql" options="-proc:none" />
+      <module name="employee-todo.data-psql.main" options="-proc:none" />
+      <module name="employee-todo.data-psql.test" options="-proc:none" />
+      <module name="employee-todo.domain" options="-proc:none" />
+      <module name="employee-todo.domain.main" options="-proc:none" />
+      <module name="employee-todo.domain.test" options="-proc:none" />
+      <module name="employee-todo.external" options="-proc:none" />
+      <module name="employee-todo.external.main" options="-proc:none" />
+      <module name="employee-todo.external.test" options="-proc:none" />
+      <module name="employee-todo.ktor-client" options="-proc:none" />
+      <module name="employee-todo.ktor-client.main" options="-proc:none" />
+      <module name="employee-todo.ktor-client.test" options="-proc:none" />
+      <module name="employee-todo.ktor-server" options="-proc:none" />
+      <module name="employee-todo.ktor-server.main" options="-proc:none" />
+      <module name="employee-todo.ktor-server.test" options="-proc:none" />
+      <module name="employee-todo.server-commons" options="-proc:none" />
+      <module name="employee-todo.server-commons.main" options="-proc:none" />
+      <module name="employee-todo.server-commons.test" options="-proc:none" />
+      <module name="employee-todo.sqs-client" options="-proc:none" />
+      <module name="employee-todo.sqs-client.main" options="-proc:none" />
+      <module name="employee-todo.sqs-client.test" options="-proc:none" />
+      <module name="employee-todo.sqs-server" options="-proc:none" />
+      <module name="employee-todo.sqs-server.main" options="-proc:none" />
+      <module name="employee-todo.sqs-server.test" options="-proc:none" />
+    </option>
+  </component>
+</project>
